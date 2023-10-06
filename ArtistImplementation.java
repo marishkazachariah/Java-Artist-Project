@@ -14,4 +14,9 @@ public class ArtistImplementation implements Artist {
     public void setName(String artistName) {
         name = artistName;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s", name);
+    }
 }
